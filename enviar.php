@@ -13,13 +13,13 @@ $mail->IsSMTP();
 $mail->CharSet = "UTF-8";
 //$mail->SMTPDebug = 2;  // debugging: 1 = errors and messages, 2 = messages only
 $mail->SMTPAuth = true;  // authentication enabled
-$mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for GMail
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // secure transfer enabled REQUIRED for GMail
 $mail->SMTPAutoTLS = false;
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 
 $mail->Username = "ppauloces27@gmail.com";
-$mail->Password = "Pbamaral1";
+$mail->Password = "Pbamaral$123";
 $mail->SetFrom('ppauloces27@gmail.com', 'PHP');
 
 $mail->addAddress($_POST['email']);
@@ -28,7 +28,8 @@ $mail->Subject = $_POST['subject'];
 $mail->isHTML(true);
 $mail->msgHTML('
     <h1>' . $_POST['subject'] . '</h1><br>'.
-    '<p>'. $_POST['message'] . '</p>'
+    '<p>'. $_POST['message'] . '</p>'.
+    '<p>Enviado por:'. $_POST['email'] . ' ('.$_POST['name'].')</p>'
 );
 
 
