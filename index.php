@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -11,42 +13,32 @@
 
   <title>Paulo Amaral - Portfólio</title>
 
-  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-  <link rel="stylesheet" type="text/css" href="/css/themify-icons.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
 
-  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/owl-carousel/owl.carousel.css">
 
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/animate/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
 
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/nice-select/css/nice-select.css">
 
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/fancybox/css/jquery.fancybox.min.css">
 
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/nice-select/css/nice-select.css">
+  <link rel="stylesheet" type="text/css" href="css/virtual.css">
 
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/fancybox/css/jquery.fancybox.min.css">
-
-  <link rel="stylesheet" type="text/css" href="/css/virtual.css">
-
-  <link rel="stylesheet" type="text/css" href="/css/topbar.virtual.css">
+  <link rel="stylesheet" type="text/css" href="css/topbar.virtual.css">
 </head>
 
 <body class="theme-red">
 
-  <!-- Back to top button -->
-  <div class="btn-back_to_top">
-    <span class="ti-arrow-up"></span>
-  </div>
-
-  <div class="vg-page page-home" id="home" style="background-image: url(/assets/img/bg_image_1.jpg)">
+  <div class="vg-page page-home" id="home" style="background-image: url(assets/img/bg_image_1.jpg)">
     <!-- Caption header -->
     <div class="caption-header text-center wow zoomInDown">
       <h5 class="fw-normal">Olá, bem-vind$!</h5>
       <h1 class="fw-light mb-4">Eu sou <b class="fg-theme">Paulo</b> Amaral</h1>
       <div class="badge">Web Developer</div>
     </div> <!-- End Caption header -->
-    <div class="floating-button"><span class="ti-mouse"></span></div>
   </div>
 
   <div class="vg-page page-about" id="about">
@@ -54,7 +46,7 @@
       <div class="row">
         <div class="col-lg-4 py-3">
           <div class="img-place wow fadeInUp">
-            <img src="/assets/img/paulo.jpeg" alt="">
+            <img src="assets/img/paulo.jpeg" alt="">
           </div>
         </div>
         <div class="col-lg-3 offset-lg-1 wow fadeInRight">
@@ -143,84 +135,6 @@
     </div>
   </div>
 
-  <!--<div class="vg-page page-service">
-    <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Service</div>
-      </div>
-      <h1 class="fw-normal text-center wow fadeInUp">What can i do?</h1>
-      <div class="row mt-5">
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
-            <div class="icon">
-              <span class="ti-paint-bucket"></span>
-            </div>
-            <div class="caption">
-              <h4 class="fg-theme">Web Design</h4>
-              <p>There are many variations of passages of Lorem Ipsum available</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
-            <div class="icon">
-              <span class="ti-search"></span>
-            </div>
-            <div class="caption">
-              <h4 class="fg-theme">SEO</h4>
-              <p>There are many variations of passages of Lorem Ipsum available</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
-            <div class="icon">
-              <span class="ti-vector"></span>
-            </div>
-            <div class="caption">
-              <h4 class="fg-theme">UI/UX Design</h4>
-              <p>There are many variations of passages of Lorem Ipsum available</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
-            <div class="icon">
-              <span class="ti-desktop"></span>
-            </div>
-            <div class="caption">
-              <h4 class="fg-theme">Web Development</h4>
-              <p>There are many variations of passages of Lorem Ipsum available</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>-->
-
-  <!--<div class="vg-page page-funfact" style="background-image: url(../assets/img/bg_banner.jpg);">
-    <div class="container">
-      <div class="row section-counter">
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="768">768</h1>
-          <span>Clients</span>
-        </div>
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="230">230</h1>
-          <span>Project Compleate</span>
-        </div>
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="97">97</h1>
-          <span>Project Ongoing</span>
-        </div>
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="699">699</h1>
-          <span>Client Satisfaction</span>
-        </div>
-      </div>
-    </div>
-  </div>-->
-
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
     <div class="container">
@@ -236,9 +150,9 @@
 
       <div class="gridder my-3">
         <div class="grid-item template wireframes wow zoomIn">
-          <div class="img-place" data-src="../assets/img/work/spotify-clone.png" data-fancybox
+          <div class="img-place" data-src="assets/img/work/spotify-clone.png" data-fancybox
             data-caption="<h5 class='fg-theme'>Clone Spotify</h5> <p>Música</p>">
-            <img src="../assets/img/work/spotify-clone.png" alt="">
+            <img src="assets/img/work/spotify-clone.png" alt="">
             <div class="img-caption">
               <h5 class="fg-theme">Clone Spotify</h5>
               <p>Música</p>
@@ -246,9 +160,9 @@
           </div>
         </div>
         <div class="grid-item graphic ui-ux wow zoomIn">
-          <div class="img-place" data-src="../assets/img/work/psf.png" data-fancybox
+          <div class="img-place" data-src="assets/img/work/psf.png" data-fancybox
             data-caption="<h5 class='fg-theme'>Sistema de Controle de PSF</h5> <p>Saúde, Dashboard</p>">
-            <img src="../assets/img/work/psf.png" alt="">
+            <img src="assets/img/work/psf.png" alt="">
             <div class="img-caption">
               <h5 class="fg-theme">Sistema de Controle de PSF</h5>
               <p>Saúde, Dashboard</p>
@@ -280,7 +194,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="img-place">
-                    <img src="../assets/img/testimonials/otto.png" alt="">
+                    <img src="assets/img/testimonials/otto.png" alt="">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -289,7 +203,7 @@
                       gastos. Adorei o serviço, com certeza se eu precisar novamente, procurarei o Paulo"</div>
                     <div class="testi-info">
                       <div class="thumb-profile">
-                        <img src="../assets/img/testimonials/otto.png" alt="">
+                        <img src="assets/img/testimonials/otto.png" alt="">
                       </div>
                       <div class="tagline">
                         <h5 class="mb-0">Otto Maia</h5>
@@ -304,7 +218,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="img-place">
-                    <img src="../assets/img/testimonials/rafael.PNG" alt="">
+                    <img src="assets/img/testimonials/rafael.PNG" alt="">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -313,7 +227,7 @@
                       qualquer um. Paulo realmente fez um trabalho excelente como foi pedido."</div>
                     <div class="testi-info">
                       <div class="thumb-profile">
-                        <img src="../assets/img/testimonials/rafael.PNG" alt="">
+                        <img src="assets/img/testimonials/rafael.PNG" alt="">
                       </div>
                       <div class="tagline">
                         <h5 class="mb-0">Rafael Amaral</h5>
@@ -330,139 +244,39 @@
     </div>
   </div> <!-- End testimonial -->
 
-  <!-- Client -->
-  <div class="vg-page page-client">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/company_1.svg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/company_2.svg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/company_3.svg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/company_4.svg" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/company_5.svg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/company_6.svg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/company_7.svg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 item">
-          <div class="img-place wow fadeInUp">
-            <img src="../assets/img/logo/company_8.svg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> <!-- End client -->
-
-  <!-- Blog 
-  <div class="vg-page page-blog" id="blog">
-    <div class="container">
-      <div class="text-center">
-        <div class="badge badge-subhead wow fadeInUp">Blog</div>
-      </div>
-      <h1 class="text-center fw-normal wow fadeInUp">Latest Post</h1>
-      <div class="row post-grid">
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="../assets/img/work/work-9.jpg" alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">Technology</a>
-              <a href="#" class="post-title">Invision design forward fund</a>
-              <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="../assets/img/work/work-6.jpg" alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">Business</a>
-              <a href="#" class="post-title">Announcing a plan for small teams</a>
-              <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="../assets/img/work/work-1.jpg" alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">Design</a>
-              <a href="#" class="post-title">5 basic tips for illustrating</a>
-              <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 text-center py-3 wow fadeInUp">
-          <a href="blog-fullbar.html" class="btn btn-theme">See All Post</a>
-        </div>
-      </div>
-    </div>
-  </div> End blog -->
-
   <!-- Contact -->
   <div class="vg-page page-contact" id="contact">
     <div class="container-fluid">
       <div class="text-center wow fadeInUp">
-        <!-- <div class="badge badge-subhead">Contact</div> -->
+        <div class="badge badge-subhead">Contact</div>
       </div>
       <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
-      <div class="row py-5" style="justify-content: center;">
-        <div class="col-lg-7 px-0 pr-lg-7 wow zoomIn">
+      <div class="row py-5">
+        <div class="col-lg-7 px-0 pr-lg-3 wow zoomIn">
           <div class="vg-maps">
             <div id="google-maps" style="width: 100%; height: 100%;"></div>
           </div>
         </div>
-        <!--<div class="col-lg-5">
-           <form class="vg-contact-form">
+        <div class="col-lg-5">
+          <form class="vg-contact-form" method="POST" id="phpmailer">
             <div class="form-row">
               <div class="col-12 mt-3 wow fadeInUp">
-                <input class="form-control" type="text" name="Name" placeholder="Your Name">
+                <input class="form-control" type="text" name="name" placeholder="Your Name">
               </div>
               <div class="col-6 mt-3 wow fadeInUp">
-                <input class="form-control" type="text" name="Email" placeholder="Email Address">
+                <input class="form-control" type="text" name="email" placeholder="Email Address">
               </div>
               <div class="col-6 mt-3 wow fadeInUp">
-                <input class="form-control" type="text" name="Subject" placeholder="Subject">
+                <input class="form-control" type="text" name="subject" placeholder="Subject">
               </div>
               <div class="col-12 mt-3 wow fadeInUp">
-                <textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>
+                <textarea class="form-control" name="message" rows="6" placeholder="Enter message here.."></textarea>
               </div>
               <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
             </div>
-          </form> 
-        </div>-->
+            <div id="linkResultado"></div>
+          </form>
+        </div>
       </div>
     </div>
   </div> <!-- End Contact -->
@@ -509,6 +323,8 @@
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
 
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   <script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
 
   <script src="assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
@@ -532,6 +348,22 @@
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
 
+    <script>
+        jQuery('#phpmailer').submit(function () {
+            event.preventDefault();
+            var dados = jQuery(this).serialize();
+            jQuery.ajax({
+                type: "POST",
+                url: "enviar.php",
+                data: dados,
+                success: function (data)
+                {
+                    $("#linkResultado").html(data);
+                }
+            });
+            return false;
+        });
+    </script>
 </body>
 
 </html>
