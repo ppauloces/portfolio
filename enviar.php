@@ -11,7 +11,7 @@ $mail = new PHPMailer();
 $mail->IsSMTP();
 
 $mail->CharSet = "UTF-8";
-//$mail->SMTPDebug = 2;  // debugging: 1 = errors and messages, 2 = messages only
+$mail->SMTPDebug = 2;  // debugging: 1 = errors and messages, 2 = messages only
 $mail->SMTPAuth = true;  // authentication enabled
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // secure transfer enabled REQUIRED for GMail
 $mail->SMTPAutoTLS = false;
